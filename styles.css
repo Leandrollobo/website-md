@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+body {
+  display: flex;
+  background: rgb(239, 236, 239);
+  background: linear-gradient(
+    285deg,
+    rgba(239, 236, 239, 1) 0%,
+    rgba(251, 225, 248, 1) 31%,
+    rgba(241, 247, 249, 1) 50%,
+    rgba(253, 205, 244, 1) 66%,
+    rgba(254, 177, 237, 1) 87%
+  );
+  /*background-image: url(assets/backgroundens.png);*/
+  background-attachment: fixed;
+  /*background-position-x: center;*/
+}
+
+.landing-maah {
+  position: fixed;
+  width: auto;
+  height: 70%;
+  top: 5rem;
+  left: 50rem;
+  z-index: 2;
+}
+
+.nuvem-landing-pg {
+  position: fixed;
+  width: 100%;
+  top: 15rem;
+  z-index: 4;
+}
+
+.landing-logo {
+  position: fixed;
+  width: auto;
+  height: 25%;
+  top: 5rem;
+  left: 2rem;
+  z-index: 4;
+}
+
+h1 {
+  position: absolute;
+  top: 10rem;
+  left: 5rem;
+  border: 1px solid red;
+  display: flex;
+}
