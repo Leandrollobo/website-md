@@ -26,30 +26,115 @@ body {
   /*background-position-x: center;*/
 }
 
+
+nav {
+  /*background-color: #ffffff;*/
+  width: 100%;  
+  position: absolute;
+  padding-top: 7rem;
+}
+
+ul {
+  display: flex;
+  justify-content:flex-end;
+  list-style: none;
+  gap: 30px;
+  margin-right: 3%;
+}
+
+li {
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  text-transform: uppercase;
+  
+}
+
+
 .landing-maah {
-  position: fixed;
+  position: absolute;
   width: auto;
-  height: 70%;
-  top: 5rem;
-  left: 50rem;
+  height: 50%;
+  top: 7rem;
+  right: 60%;
   z-index: 2;
 }
 
 .nuvem-landing-pg {
-  position: fixed;
+  position: absolute;
   width: 100%;
-  top: 15rem;
+  top: 7rem;
   z-index: 4;
 }
 
 .landing-logo {
-  position: fixed;
+  position: absolute;
   width: auto;
   height: 25%;
-  top: 5rem;
+  top: 3rem;
   left: 2rem;
   z-index: 4;
 }
+
+.txt-contato1 {
+  position: absolute;
+  top: 15rem;
+  left: 43rem;
+  display: flex;
+  font-family: "Waterfall", cursive;
+  font-size: 45px;
+}
+
+.txt-contato2 {
+  position: absolute;
+  top: 17rem;
+  left: 48rem;
+  display: flex;
+  font-family: "Waterfall", cursive;
+  font-size: 45px;
+}
+
+.banner1 {
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 34rem;
+  padding: 20px;  
+  width: 100%;
+  
+}
+
+.txtbanner1 {
+  padding: 10px;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  font-size: 30px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.destaques {
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 39rem;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.txtdestaque {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Roboto Condensed";
+  margin-bottom: 20px;
+}
+
+.lista-produtos{
+ display: flex;
+ padding-top: 30px;
+ padding-bottom: 30px;
+ justify-content: center;
+}
+
 
 h1 {
   position: absolute;
@@ -57,4 +142,40 @@ h1 {
   left: 5rem;
   border: 1px solid red;
   display: flex;
+}
+
+footer{
+  display: flex;  
+  position: relative;
+  top: 60rem;
+ 
+}
+
+.social-links {
+  border: 5px solid red;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+  text-align: center;
+  
+  
+}
+
+.contact {
+  border: 5px solid red;
+  margin-top: 30px;
+  display: flex;
+  font-family: "Roboto Condensed";
+  text-transform: uppercase;
+  justify-content: space-between;
+ 
+  
+  
+}
+
+.box1{
+  display: flex;
+  border: 5px solid red;
 }
